@@ -45,70 +45,78 @@ Observation:The majority of students belong to the GP school, while a smaller pr
 
 Analysis:
 GP school contributes most of the records in the dataset. The larger representation may be due to higher student enrollment or broader data collection from that institution. Since GP students dominate the dataset, overall trends and patterns are influenced more by their academic behavior and performance.
-<img width="500" height="500" alt="1  School Distribution Analysis" src="https://github.com/user-attachments/assets/2a25e434-b7cb-476f-8f1d-63cf6bcdbd4b" />
+<img width="300" height="300" alt="1  School Distribution Analysis" src="https://github.com/user-attachments/assets/2a25e434-b7cb-476f-8f1d-63cf6bcdbd4b" />
 
 2. Gender Distribution
-
 Observation:Female students slightly outnumber male students in the dataset.
 
 Analysis:
 The gender distribution is relatively balanced, allowing meaningful comparisons between male and female student performance. This balance helps reduce bias in the analysis and enables researchers to examine whether gender influences academic outcomes, study habits, and educational aspirations.
+<img width="300" height="300" alt="2  Gender Distribution" src="https://github.com/user-attachments/assets/334a5c83-dc10-458a-a4ae-791f5fab36d5" />
+
 
 3. Urban vs Rural Student Distribution
-
 Observation:Most students come from urban areas rather than rural regions.
 
 Analysis:
 Urban students generally have better access to educational facilities, transportation, internet connectivity, and academic resources. Their higher representation suggests that urban educational environments may play a significant role in shaping student performance within the dataset.
+<img width="300" height="300" alt="3 Urban vs Rural Student Distribution" src="https://github.com/user-attachments/assets/79636644-dcb5-4ba4-a398-838affc75e81" />
 
 4. Internet Access at Home
-
 Observation:A large percentage of students have internet access at home.
 
 Analysis:
 Internet availability positively influences learning by providing access to online educational resources, tutorials, digital libraries, and communication platforms. Students with internet access often have greater opportunities for self-learning and academic improvement.
+<img width="300" height="300" alt="4  Internet Access at Home" src="https://github.com/user-attachments/assets/d0c8c1c1-a56b-4c9a-9ac4-b4b8af8d2e5f" />
+
 
 5. Previous Academic Failures
-
 Observation:Most students have no history of academic failures.
 
 Analysis:
 The low number of failures suggests that the majority of students maintain satisfactory academic progress. Students without previous failures generally demonstrate stronger learning foundations and are more likely to achieve higher final grades.
 
-6. Study Time Distribution
+<img width="300" height="300" alt="5  Previous Academic Failures" src="https://github.com/user-attachments/assets/78c2f6b8-3018-4b6b-8b98-113a9201f803" />
 
+
+6. Study Time Distribution
 Observation: Most students spend a moderate amount of time studying each week.
 
 Analysis:
 Study time is one of the most important factors affecting academic achievement. Students who dedicate consistent hours to studying often perform better than those who study infrequently. The distribution indicates that many students understand the importance of regular study habits.
+<img width="300" height="300" alt="6  Study Time Distribution" src="https://github.com/user-attachments/assets/6cc471fd-3fc8-4f3a-8e3b-f5b1ff8e18ff" />
+
 
 7. Age Distribution
-
 Observation:Students aged 16–18 form the largest group in the dataset.
 
 Analysis:
 This age range represents typical secondary school students. Since most observations belong to this group, the dataset effectively reflects the educational behavior, academic performance, and lifestyle characteristics of mid-to-late teenage students.
+<img width="300" height="300" alt="7  Age Distribution" src="https://github.com/user-attachments/assets/bd42c1d2-9e91-4feb-85c5-c998a5f967f2" />
+
 
 8. Average Final Grade by Gender
-
 Observation:Female students achieve slightly higher average final grades than male students.
 
 Analysis:
 The results suggest that female students may demonstrate stronger academic consistency, better attendance, or more disciplined study habits. Although the difference is not extremely large, it indicates a noticeable performance advantage in this dataset.
+<img width="300" height="300" alt="8  Average Final Grade by Gender" src="https://github.com/user-attachments/assets/9c93a7c9-21c0-4cb3-852e-b3d331a203c0" />
+
 
 9. Average Final Grade by Residence Area
-
 Observation:Urban students perform slightly better than rural students.
 
 Analysis:
 Students living in urban areas often benefit from better educational infrastructure, access to technology, coaching centers, and learning resources. These advantages may contribute to the higher average academic performance observed among urban students.
+<img width="300" height="300" alt="9  Average Final Grade by Residence Area" src="https://github.com/user-attachments/assets/3d922772-0bb8-48ce-922d-90305f1170cc" />
+
 
 10. Average Final Grade by Number of Failures
-
 Observation: Academic performance decreases as the number of previous failures increases.
 
 Analysis:
 This is one of the strongest trends observed in the dataset. Students with no previous failures achieve the highest average grades, while those with multiple failures show substantially lower performance. The finding highlights the long-term impact of academic difficulties on future achievement.
 
+<img width="300" height="300" alt="10  Average Final Grade by Number of Failures" src="https://github.com/user-attachments/assets/bd6a96ef-81a3-4585-8760-21442771941c" />
 
 
