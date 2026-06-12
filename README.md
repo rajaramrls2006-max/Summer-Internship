@@ -41,6 +41,7 @@ Dataset Analysis – Top 10 Findings
 This analysis is based on the Student Performance Dataset used during this internship. The dataset contains demographic, social, and academic information about students and helps identify factors affecting educational performance.
 
 1. School Distribution Analysis
+
 Observation:The majority of students belong to the GP school, while a smaller proportion are from the MS school.
 
 Analysis:
@@ -48,6 +49,7 @@ GP school contributes most of the records in the dataset. The larger representat
 <img width="300" height="300" alt="1  School Distribution Analysis" src="https://github.com/user-attachments/assets/2a25e434-b7cb-476f-8f1d-63cf6bcdbd4b" />
 
 2. Gender Distribution
+
 Observation:Female students slightly outnumber male students in the dataset.
 
 Analysis:
@@ -56,6 +58,7 @@ The gender distribution is relatively balanced, allowing meaningful comparisons 
 
 
 3. Urban vs Rural Student Distribution
+
 Observation:Most students come from urban areas rather than rural regions.
 
 Analysis:
@@ -63,6 +66,7 @@ Urban students generally have better access to educational facilities, transport
 <img width="300" height="300" alt="3 Urban vs Rural Student Distribution" src="https://github.com/user-attachments/assets/79636644-dcb5-4ba4-a398-838affc75e81" />
 
 4. Internet Access at Home
+
 Observation:A large percentage of students have internet access at home.
 
 Analysis:
@@ -71,6 +75,7 @@ Internet availability positively influences learning by providing access to onli
 
 
 5. Previous Academic Failures
+
 Observation:Most students have no history of academic failures.
 
 Analysis:
@@ -80,6 +85,7 @@ The low number of failures suggests that the majority of students maintain satis
 
 
 6. Study Time Distribution
+
 Observation: Most students spend a moderate amount of time studying each week.
 
 Analysis:
@@ -88,6 +94,7 @@ Study time is one of the most important factors affecting academic achievement. 
 
 
 7. Age Distribution
+
 Observation:Students aged 16–18 form the largest group in the dataset.
 
 Analysis:
@@ -96,6 +103,7 @@ This age range represents typical secondary school students. Since most observat
 
 
 8. Average Final Grade by Gender
+
 Observation:Female students achieve slightly higher average final grades than male students.
 
 Analysis:
@@ -104,6 +112,7 @@ The results suggest that female students may demonstrate stronger academic consi
 
 
 9. Average Final Grade by Residence Area
+
 Observation:Urban students perform slightly better than rural students.
 
 Analysis:
@@ -112,6 +121,7 @@ Students living in urban areas often benefit from better educational infrastruct
 
 
 10. Average Final Grade by Number of Failures
+
 Observation: Academic performance decreases as the number of previous failures increases.
 
 Analysis:
