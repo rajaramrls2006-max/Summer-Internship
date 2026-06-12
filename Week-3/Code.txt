@@ -1,0 +1,320 @@
+\documentclass[12pt,a4paper]{article}
+
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{setspace}
+\usepackage[hidelinks]{hyperref}
+\usepackage{bookmark}
+\usepackage{parskip}
+\usepackage{longtable}
+\usepackage{placeins}
+
+\definecolor{myblue}{RGB}{0,70,140}
+
+\titleformat{\section}
+{\Large\bfseries\color{myblue}}
+{\thesection}{1em}{}
+
+\titleformat{\subsection}
+{\large\bfseries}
+{\thesubsection}{1em}{}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\fancyhead[L]{\textcolor{myblue}{Final Report}}
+\fancyhead[R]{\textcolor{myblue}{EdTech Student Performance and Engagement Portal
+}}
+
+\fancyfoot[C]{\thepage}
+
+\renewcommand{\headrulewidth}{0.4pt}
+
+\setstretch{1.3}
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+\begin{document}
+
+%------------------------------------------------
+% TITLE PAGE
+%------------------------------------------------
+
+\begin{titlepage}
+\thispagestyle{empty}
+\centering
+
+\vspace*{1.5cm}
+
+{\Huge\bfseries\color{myblue} FINAL REPORT \par}
+
+\vspace{1cm}
+
+{\color{blue}\rule{0.45\textwidth}{1.5pt}}
+
+\vspace{1.5cm}
+
+{\Huge\bfseries\color{myblue}
+EdTech Student Performance and
+Engagement
+Portal\\[0.2cm]
+
+\par}
+
+\vspace{1cm}
+
+{\Large\itshape Track: Education Data Systems}
+
+\vspace{1.5cm}
+
+{\color{blue}\rule{0.75\textwidth}{1.5pt}}
+
+\vfill
+
+{\Large Prepared By}
+
+\vspace{0.7cm}
+
+{\Huge\bfseries Rajaram Maremalla}
+
+\vspace{0.5cm}
+
+
+\vfill
+
+
+
+\end{titlepage}
+\tableofcontents
+\newpage
+
+
+\section{Introduction}
+The EdTech Student Performance and Engagement Portal is a centralized educational analytics platform developed to monitor, evaluate, and enhance student activities in digital learning environments. Educational institutions generate vast amounts of data through online classes, assessments, assignments, attendance records, and learning management systems. However, this information is often distributed across multiple platforms, making it difficult for faculty members and administrators to gain meaningful insights. The proposed portal addresses this challenge by collecting, organizing, and integrating data into a unified system that enables efficient academic monitoring and informed decision-making. Through advanced data analysis and visualization techniques, the platform transforms raw educational data into actionable information that supports both teaching and learning processes.
+
+The portal provides interactive dashboards, performance scorecards, and key performance indicators that allow students, faculty members, and administrators to track academic progress and engagement levels effectively. Automated alerts help identify students who may require additional academic support, enabling timely intervention and improved learning outcomes. The system also incorporates privacy-preserving mechanisms to ensure the security and confidentiality of sensitive educational data. By presenting information in a clear and accessible manner, the portal promotes data-driven decision-making, enhances student engagement, improves institutional effectiveness, and contributes to the overall quality of education.
+
+\section{Problem Statement}
+
+Educational institutions face increasing challenges in managing and analyzing the large volumes of data generated through online learning platforms, including attendance records, assessment results, assignment submissions, and student engagement activities. Since this information is often distributed across multiple systems, obtaining a comprehensive view of student performance becomes difficult. Manual monitoring methods are time-consuming, prone to errors, and may not provide timely insights for effective academic intervention. Additionally, data quality issues such as duplicate records, missing values, and inconsistencies further complicate the analysis process, limiting the ability of educators and administrators to make informed decisions.
+
+Another major challenge is the early identification of students who may be at risk of poor academic performance or declining engagement. Traditional evaluation methods often fail to provide real-time indicators, reducing opportunities for timely support and corrective action. Furthermore, institutions require secure and user-friendly systems that protect sensitive student information while presenting complex data through clear dashboards, reports, and performance indicators. The absence of a centralized analytics platform restricts effective educational monitoring and decision-making. Therefore, the proposed EdTech Student Performance and Engagement Portal aims to provide a unified, secure, and data-driven solution for collecting, analyzing, and visualizing educational data to improve student outcomes and institutional effectiveness.
+
+
+\section{Dataset Description}
+
+\subsection{Dataset Overview}
+
+The dataset used in this project is the Student Performance Dataset.
+
+\begin{itemize}
+\item Dataset Name: Student Performance Dataset
+\item Total Records: 649 Students
+\item Total Columns: 33 Attributes
+\item Data Type: Structured CSV Dataset
+\item Domain: Education
+\end{itemize}
+
+The dataset contains information related to:
+
+\begin{itemize}
+\item Student demographics
+\item Family background
+\item Academic performance
+\item Social activities
+\item Attendance
+\item Study habits
+\end{itemize}
+
+%------------------------------------------------
+% DATASET STATISTICS
+%------------------------------------------------
+
+\subsection{Dataset Statistics}
+
+\begin{center}
+\begin{tabular}{|l|c|}
+\hline
+Statistic & Value \\
+\hline
+Total Rows & 649 \\
+\hline
+Total Columns & 33 \\
+\hline
+Missing Values & 0 \\
+\hline
+Categorical Columns & Multiple \\
+\hline
+Numerical Columns & Multiple \\
+\hline
+Dataset Type & Educational Dataset \\
+\hline
+\end{tabular}
+\end{center}
+
+The dataset is clean and contains no missing values, making it suitable for analysis and visualization.
+
+%------------------------------------------------
+% COLUMN ANALYSIS
+%------------------------------------------------
+
+\subsection{Column Analysis}
+
+\begin{longtable}{|p{4cm}|p{9cm}|}
+\hline
+Column Name & Description \\
+\hline
+school & School attended by student \\
+\hline
+sex & Gender of student \\
+\hline
+age & Student age \\
+\hline
+address & Urban or rural residence \\
+\hline
+famsize & Family size \\
+\hline
+Pstatus & Parent cohabitation status \\
+\hline
+Medu & Mother's education level \\
+\hline
+Fedu & Father's education level \\
+\hline
+studytime & Weekly study time \\
+\hline
+failures & Number of past failures \\
+\hline
+schoolsup & Extra educational support \\
+\hline
+famsup & Family educational support \\
+\hline
+paid & Extra paid classes \\
+\hline
+activities & Extra curricular activities \\
+\hline
+internet & Internet access at home \\
+\hline
+G1 & First period grade \\
+\hline
+G2 & Second period grade \\
+\hline
+G3 & Final grade \\
+\hline
+\end{longtable}
+
+The dataset contains both categorical and numerical variables that provide detailed information about students and their academic outcomes.
+
+
+\subsection{Key Findings and Chart Analysis}
+
+\subsubsection{1. School Distribution Analysis}
+
+The majority of students belong to the GP school, while a smaller proportion are from the MS school.
+
+\begin{center}
+\includegraphics[width=0.3\linewidth]{1. School Distribution Analysis.png}
+
+Figure 1: School Distribution Analysis
+
+\end{center}
+
+\subsubsection{2. Gender Distribution}
+
+Female students slightly outnumber male students in the dataset.
+
+\begin{center}
+\includegraphics[width=0.3\linewidth]{2. Gender Distribution.png}
+Figure 2: Gender Distribution
+\end{center}
+
+\subsubsection{3. Urban vs Rural Student Distribution}
+
+Most students come from urban areas rather than rural regions.
+
+\begin{center}
+\includegraphics[width=0.3\linewidth]{3.Urban vs Rural Student Distribution.png}
+
+Figure 3: Urban vs Rural Student Distribution
+
+\end{center}
+
+\subsubsection{4. Internet Access at Home}
+ A large percentage of students have internet access at home.
+
+
+\begin{center}
+\includegraphics[width=0.3\linewidth]{4. Internet Access at Home.png}
+
+Figure 4: Internet Access at Home
+
+
+\end{center}
+
+\subsubsection{5. Previous Academic Failures}
+Most students have no history of academic failures.
+\begin{center}
+\includegraphics[width=0.3\linewidth]{5. Previous Academic Failures.png}
+
+Figure 5: Previous Academic Failures
+
+
+\end{center}
+
+\subsubsection{6. Study Time Distribution}
+Most students spend a moderate amount of time studying each week.
+
+\begin{center}
+\includegraphics[width=0.3\linewidth]{6. Study Time Distribution.png}
+
+
+Figure 6: Study Time Distribution
+
+
+\end{center}
+\newpage
+\subsubsection{7. Age Distribution}
+ Students aged 16 to 18 form the largest group in the dataset.
+\begin{center}
+\includegraphics[width=0.3\linewidth]{7. Age Distribution.png}
+
+Figure 7: Age Distribution
+
+\end{center}
+
+\subsubsection{8. Average Final Grade by Gender}
+
+Female students achieve slightly higher average final grades than male students.
+
+\begin{center}
+\includegraphics[width=0.3\linewidth]{8. Average Final Grade by Gender.png}
+
+Figure 8: Average Final Grade by Gender
+\end{center}
+
+\subsubsection{9. Average Final Grade by Residence Area}
+Urban students perform slightly better than rural students.
+
+
+\begin{center}
+\includegraphics[width=0.4\linewidth]{9. Average Final Grade by Residence Area.png}
+
+Figure 9: Average Final Grade by Residence Area
+
+
+\end{center}
+\newpage
+\subsubsection{10. Average Final Grade by Number of Failures}
+ Academic performance decreases as the number of previous failures increases.
+\begin{center}
+\includegraphics[width=0.3\linewidth]{10. Average Final Grade by Number of Failures.png}
+
+
+Figure 10: Average Final Grade by Number of Failures
+
+\end{center}
+
+\end{document}
