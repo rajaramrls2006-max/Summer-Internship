@@ -129,4 +129,24 @@ This is one of the strongest trends observed in the dataset. Students with no pr
 
 <img width="300" height="300" alt="10  Average Final Grade by Number of Failures" src="https://github.com/user-attachments/assets/bd6a96ef-81a3-4585-8760-21442771941c" />
 
+Additional Learning Resource:
+
+Support Vector Machine (SVM) Algorithm
+
+As part of the internship learning activities, a detailed study material on the Support Vector Machine (SVM) Machine Learning algorithm was prepared and reviewed. The document covers:
+
+- Introduction to SVM
+- Hyperplane and Decision Boundary
+- Margin and Support Vectors
+- Hard Margin and Soft Margin SVM
+- Linear and Non-Linear Classification
+- Kernel Functions (Linear, Polynomial, and RBF)
+- Applications of SVM in Classification and Regression
+
+Key Learning Outcomes
+- Understanding supervised machine learning concepts.
+- Learning how SVM separates different classes using hyperplanes.
+- Understanding the importance of margins and support vectors.
+- Exploring kernel functions for non-linear data classification.
+- Gaining knowledge of one of the most widely used classification algorithms.
 
