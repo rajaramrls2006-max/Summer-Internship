@@ -152,45 +152,46 @@ Top 10 Findings
 1. School Distribution
 - GP school contains the majority of student records.
 
-<img width="500" height="500" alt="1  School Distribution Analysis" src="https://github.com/user-attachments/assets/741c0210-d7f9-4102-8f51-890928111e13" />
+<img width="150" height="150" alt="1  School Distribution Analysis" src="https://github.com/user-attachments/assets/741c0210-d7f9-4102-8f51-890928111e13" />
 
 2. Gender Distribution
 - Female students slightly outnumber male students.
-<img width="500" height="500" alt="2  Gender Distribution" src="https://github.com/user-attachments/assets/b0a6bc3f-3835-4214-a63c-a9c5bdbd3663" />
+<img width="150" height="150" alt="2  Gender Distribution" src="https://github.com/user-attachments/assets/b0a6bc3f-3835-4214-a63c-a9c5bdbd3663" />
 
  3. Residence Distribution
 - Most students belong to urban areas.
-<img width="500" height="500" alt="3 Urban vs Rural Student Distribution" src="https://github.com/user-attachments/assets/dca760f3-ce11-4d65-8343-2c203fba431c" />
+<img width="150" height="150" alt="3 Urban vs Rural Student Distribution" src="https://github.com/user-attachments/assets/dca760f3-ce11-4d65-8343-2c203fba431c" />
 
 4. Internet Access
 - Most students have internet access at home.
-<img width="500" height="500" alt="4  Internet Access at Home" src="https://github.com/user-attachments/assets/c227feea-ca7a-4963-8feb-c411ead80629" />
+<img width="150" height="150" alt="4  Internet Access at Home" src="https://github.com/user-attachments/assets/c227feea-ca7a-4963-8feb-c411ead80629" />
 
 5. Previous Failures
 - Most students have no history of academic failures.
 
-<img width="600" height="400" alt="5  Previous Academic Failures" src="https://github.com/user-attachments/assets/426dd5e5-57a5-40fb-9fe3-65d06c96f3c7" />
+<img width="150" height="150" alt="5  Previous Academic Failures" src="https://github.com/user-attachments/assets/426dd5e5-57a5-40fb-9fe3-65d06c96f3c7" />
 
 6. Study Time
 - Students generally spend a moderate amount of time studying.
-<img width="600" height="400" alt="6  Study Time Distribution" src="https://github.com/user-attachments/assets/c65b11e2-0b98-485b-85ab-6ce4f48326c8" />
+<img width="150" height="150" alt="6  Study Time Distribution" src="https://github.com/user-attachments/assets/c65b11e2-0b98-485b-85ab-6ce4f48326c8" />
 
 7. Age Distribution
 - Majority of students are between 16–18 years.
 
-<img width="600" height="400" alt="7  Age Distribution" src="https://github.com/user-attachments/assets/00ac76de-660a-4db2-93a0-29140c6acdb3" />
+<img width="150" height="150" alt="7  Age Distribution" src="https://github.com/user-attachments/assets/00ac76de-660a-4db2-93a0-29140c6acdb3" />
 
 8.Final Grade by Gender
 - Female students achieve slightly higher average grades.
-<img width="600" height="400" alt="8  Average Final Grade by Gender" src="https://github.com/user-attachments/assets/09d0820c-5ca7-4ca4-a0e8-82b883001e2f" />
+<img width="150" height="150" alt="8  Average Final Grade by Gender" src="https://github.com/user-attachments/assets/09d0820c-5ca7-4ca4-a0e8-82b883001e2f" />
 
 9. Final Grade by Residence
 - Urban students perform slightly better than rural students.
-<img width="600" height="400" alt="9  Average Final Grade by Residence Area" src="https://github.com/user-attachments/assets/a264d00c-64e8-4b80-aa70-98fddc502fc7" />
+<img width="150" height="150" alt="9  Average Final Grade by Residence Area" src="https://github.com/user-attachments/assets/a264d00c-64e8-4b80-aa70-98fddc502fc7" />
+
 
 10. Final Grade by Previous Failures
 - Academic performance decreases as previous failures increase.
-<img width="600" height="400" alt="10  Average Final Grade by Number of Failures" src="https://github.com/user-attachments/assets/0c79b2bd-b70c-4daa-ba5d-5b82bab6c550" />
+<img width="150" height="150" alt="10  Average Final Grade by Number of Failures" src="https://github.com/user-attachments/assets/0c79b2bd-b70c-4daa-ba5d-5b82bab6c550" />
 
 ---
 
