@@ -1,152 +1,271 @@
 Overview:
-This repository contains the work completed during my Summer Internship 2025. It includes weekly tasks, project documentation, reports, datasets, notebooks, and source code developed throughout the internship period.
 
-Objectives:
+This repository contains all the work completed during my Summer Internship 2025. Throughout the internship, I gained practical experience in Data Analytics, Machine Learning, Business Intelligence (Power BI), Git & GitHub, and Technical Documentation using Overleaf.
+
+The repository includes:
+- Weekly internship tasks
+- Power BI dashboard projects
+- Machine Learning study materials
+- Student Performance Dataset analysis
+- Technical reports
+- DAX measures
+- Documentation and project files
+
+---
+
+ Objectives:
+
 - Learn Git and GitHub version control.
-- Develop practical skills in Data Analytics and Machine Learning.
-- Create technical reports using Overleaf.
-- Work on real-world datasets and projects.
-- Document weekly progress and outcomes.
+- Develop practical skills in Data Analytics.
+- Learn Business Intelligence using Microsoft Power BI.
+- Understand Machine Learning concepts.
+- Create technical reports using Overleaf (LaTeX).
+- Work with real-world datasets.
+- Document weekly learning progress.
 
+---
 
 Weekly Progress:
 
 Week 1:
-- Set up GitHub repository and project structure.
+- Created and organized the GitHub repository.
 - Learned Git and GitHub workflow.
-- Practiced version control operations.
-- Created and organized project documentation.
+- Practiced version control commands.
+- Structured project documentation.
 
-Week 2:
-- Worked on Data Analytics and Machine Learning concepts.
-- Explored datasets and performed preprocessing.
-- Generated technical reports using Overleaf.
-- Improved project documentation and repository organization.
+---
 
-Tools & Technologies:
-- Python
-- Google Colab
-- Git & GitHub
-- Overleaf
-- Jupyter Notebook
-- Machine Learning Libraries
+ Week 2:
+- Explored Data Analytics concepts.
+- Performed dataset preprocessing.
+- Created technical reports using Overleaf.
+- Improved repository organization.
 
-Learning Outcomes:
-- Version control using Git and GitHub.
-- Data preprocessing and analysis.
-- Report preparation using LaTeX and Overleaf.
-- Project documentation and repository management.
+---
 
-Dataset Analysis – Top 10 Findings
-This analysis is based on the Student Performance Dataset used during this internship. The dataset contains demographic, social, and academic information about students and helps identify factors affecting educational performance.
+Week 3:
+- Learned Power BI fundamentals.
+- Imported datasets into Power BI.
+- Cleaned data using Power Query.
+- Built basic interactive visualizations.
 
-1. School Distribution Analysis
+---
 
-Observation:The majority of students belong to the GP school, while a smaller proportion are from the MS school.
+Week 4:
+- Developed Power BI dashboards.
+- Created relationships between tables.
+- Designed KPI Cards and Charts.
+- Applied filters and slicers.
 
-Analysis:
-GP school contributes most of the records in the dataset. The larger representation may be due to higher student enrollment or broader data collection from that institution. Since GP students dominate the dataset, overall trends and patterns are influenced more by their academic behavior and performance.
-<img width="300" height="300" alt="1  School Distribution Analysis" src="https://github.com/user-attachments/assets/2a25e434-b7cb-476f-8f1d-63cf6bcdbd4b" />
+---
+
+Week 5:
+- Created DAX Measures.
+- Improved dashboard interactivity.
+- Built analytical reports.
+- Enhanced dashboard formatting.
+
+---
+
+Week 6:
+- Performed Student Performance Dataset analysis.
+- Generated analytical charts.
+- Documented Top Findings.
+- Prepared internship report using Overleaf.
+
+---
+
+Week 7:
+- Completed advanced Power BI dashboard tasks.
+- Built multiple business dashboards.
+- Applied Star Schema data modeling.
+- Implemented drill-through and drill-down analysis.
+- Validated dashboard insights and reporting.
+
+---
+
+  Power BI Project
+
+During the internship, I developed an Interactive Student Performance Dashboard using Microsoft Power BI to analyze educational data and visualize key academic insights. The dashboard was designed to transform raw student data into meaningful reports that support data-driven decision-making.
+
+ Student Performance Dashboard:
+
+Objectives:
+- Analyze student academic performance.
+- Monitor key educational performance indicators.
+- Identify factors affecting final grades.
+- Visualize student demographics and study behavior.
+- Create an interactive Business Intelligence dashboard.
+
+ Work Performed:
+- Imported the Student Performance dataset into Power BI.
+- Cleaned and transformed the dataset using Power Query.
+- Corrected data types and handled missing values.
+- Created relationships between tables.
+- Developed DAX measures for analytical reporting.
+- Designed KPI Cards and interactive visualizations.
+- Added slicers and filters for dynamic analysis.
+- Applied professional dashboard formatting and themes.
+- Tested and validated dashboard performance.
+
+Dashboard Highlights:
+ Total Students
+Average Final Grade
+Average Age
+Average Study Hours
+Average Absences
+ Pass Percentage
+Students with Internet Access
+Higher Education Aspirants
+Average Number of Failures
+School-wise Student Distribution
+Gender-wise Student Distribution
+Urban vs Rural Student Distribution
+Internet Access Analysis
+Study Time Analysis
+Previous Failure Analysis
+Final Grade by Gender
+Final Grade by Residence Area
+Final Grade by Previous Failures
+Interactive Filters & Slicers
+
+Skills Applied:
+- Data Import
+- Data Cleaning
+- Power Query
+- Data Modeling
+- Relationship Creation
+- DAX Measures
+- KPI Dashboard Design
+- Data Visualization
+- Interactive Reporting
+- Business Intelligence
+
+ Outcome:
+Successfully developed an interactive **Student Performance Dashboard** that provides meaningful insights into students' academic performance, study habits, attendance, demographic characteristics, and factors affecting final grades. The dashboard enables educators and analysts to explore educational data efficiently through interactive visualizations.
+
+Student Performance Dataset Analysis:
+The internship included a detailed analysis of the Student Performance Dataset.
+
+Top 10 Findings
+
+1. School Distribution
+- GP school contains the majority of student records.
 
 2. Gender Distribution
+- Female students slightly outnumber male students.
 
-Observation:Female students slightly outnumber male students in the dataset.
+ 3. Residence Distribution
+- Most students belong to urban areas.
 
-Analysis:
-The gender distribution is relatively balanced, allowing meaningful comparisons between male and female student performance. This balance helps reduce bias in the analysis and enables researchers to examine whether gender influences academic outcomes, study habits, and educational aspirations.
-<img width="300" height="300" alt="2  Gender Distribution" src="https://github.com/user-attachments/assets/334a5c83-dc10-458a-a4ae-791f5fab36d5" />
+4. Internet Access
+- Most students have internet access at home.
 
+5. Previous Failures
+- Most students have no history of academic failures.
 
-3. Urban vs Rural Student Distribution
-
-Observation:Most students come from urban areas rather than rural regions.
-
-Analysis:
-Urban students generally have better access to educational facilities, transportation, internet connectivity, and academic resources. Their higher representation suggests that urban educational environments may play a significant role in shaping student performance within the dataset.
-<img width="300" height="300" alt="3 Urban vs Rural Student Distribution" src="https://github.com/user-attachments/assets/79636644-dcb5-4ba4-a398-838affc75e81" />
-
-4. Internet Access at Home
-
-Observation:A large percentage of students have internet access at home.
-
-Analysis:
-Internet availability positively influences learning by providing access to online educational resources, tutorials, digital libraries, and communication platforms. Students with internet access often have greater opportunities for self-learning and academic improvement.
-<img width="300" height="300" alt="4  Internet Access at Home" src="https://github.com/user-attachments/assets/d0c8c1c1-a56b-4c9a-9ac4-b4b8af8d2e5f" />
-
-
-5. Previous Academic Failures
-
-Observation:Most students have no history of academic failures.
-
-Analysis:
-The low number of failures suggests that the majority of students maintain satisfactory academic progress. Students without previous failures generally demonstrate stronger learning foundations and are more likely to achieve higher final grades.
-
-<img width="300" height="300" alt="5  Previous Academic Failures" src="https://github.com/user-attachments/assets/78c2f6b8-3018-4b6b-8b98-113a9201f803" />
-
-
-6. Study Time Distribution
-
-Observation: Most students spend a moderate amount of time studying each week.
-
-Analysis:
-Study time is one of the most important factors affecting academic achievement. Students who dedicate consistent hours to studying often perform better than those who study infrequently. The distribution indicates that many students understand the importance of regular study habits.
-<img width="300" height="300" alt="6  Study Time Distribution" src="https://github.com/user-attachments/assets/6cc471fd-3fc8-4f3a-8e3b-f5b1ff8e18ff" />
-
+6. Study Time
+- Students generally spend a moderate amount of time studying.
 
 7. Age Distribution
+- Majority of students are between 16–18 years.
 
-Observation:Students aged 16–18 form the largest group in the dataset.
+Final Grade by Gender
+- Female students achieve slightly higher average grades.
 
-Analysis:
-This age range represents typical secondary school students. Since most observations belong to this group, the dataset effectively reflects the educational behavior, academic performance, and lifestyle characteristics of mid-to-late teenage students.
-<img width="300" height="300" alt="7  Age Distribution" src="https://github.com/user-attachments/assets/bd42c1d2-9e91-4feb-85c5-c998a5f967f2" />
+9. Final Grade by Residence
+- Urban students perform slightly better than rural students.
 
+10. Final Grade by Previous Failures
+- Academic performance decreases as previous failures increase.
 
-8. Average Final Grade by Gender
+---
 
-Observation:Female students achieve slightly higher average final grades than male students.
+ Machine Learning Learning Resource:
 
-Analysis:
-The results suggest that female students may demonstrate stronger academic consistency, better attendance, or more disciplined study habits. Although the difference is not extremely large, it indicates a noticeable performance advantage in this dataset.
-<img width="300" height="300" alt="8  Average Final Grade by Gender" src="https://github.com/user-attachments/assets/9c93a7c9-21c0-4cb3-852e-b3d331a203c0" />
+Support Vector Machine (SVM):
 
+As part of the internship, a detailed study on the **Support Vector Machine (SVM)** algorithm was completed.
 
-9. Average Final Grade by Residence Area
-
-Observation:Urban students perform slightly better than rural students.
-
-Analysis:
-Students living in urban areas often benefit from better educational infrastructure, access to technology, coaching centers, and learning resources. These advantages may contribute to the higher average academic performance observed among urban students.
-<img width="300" height="300" alt="9  Average Final Grade by Residence Area" src="https://github.com/user-attachments/assets/3d922772-0bb8-48ce-922d-90305f1170cc" />
-
-
-10. Average Final Grade by Number of Failures
-
-Observation: Academic performance decreases as the number of previous failures increases.
-
-Analysis:
-This is one of the strongest trends observed in the dataset. Students with no previous failures achieve the highest average grades, while those with multiple failures show substantially lower performance. The finding highlights the long-term impact of academic difficulties on future achievement.
-
-<img width="300" height="300" alt="10  Average Final Grade by Number of Failures" src="https://github.com/user-attachments/assets/bd6a96ef-81a3-4585-8760-21442771941c" />
-
-Additional Learning Resource:
-
-Support Vector Machine (SVM) Algorithm
-
-As part of the internship learning activities, a detailed study material on the Support Vector Machine (SVM) Machine Learning algorithm was prepared and reviewed. The document covers:
+Topics Covered:
 
 - Introduction to SVM
-- Hyperplane and Decision Boundary
-- Margin and Support Vectors
-- Hard Margin and Soft Margin SVM
-- Linear and Non-Linear Classification
-- Kernel Functions (Linear, Polynomial, and RBF)
-- Applications of SVM in Classification and Regression
+- Supervised Learning
+- Hyperplane
+- Decision Boundary
+- Support Vectors
+- Margin Maximization
+- Hard Margin SVM
+- Soft Margin SVM
+- Linear Classification
+- Non-linear Classification
+- Kernel Functions
+  - Linear Kernel
+  - Polynomial Kernel
+  - RBF Kernel
+- SVM Applications
+- Classification
+- Regression
 
-Key Learning Outcomes
-- Understanding supervised machine learning concepts.
-- Learning how SVM separates different classes using hyperplanes.
-- Understanding the importance of margins and support vectors.
-- Exploring kernel functions for non-linear data classification.
-- Gaining knowledge of one of the most widely used classification algorithms.
+---
+
+ Tools & Technologies:
+
+- Microsoft Power BI
+- Power Query
+- DAX (Data Analysis Expressions)
+- Python
+- Google Colab
+- Jupyter Notebook
+- Git
+- GitHub
+- Overleaf
+- LaTeX
+- Machine Learning Libraries
+
+---
+
+ Skills Developed:
+
+- Data Cleaning
+- Data Preprocessing
+- Data Visualization
+- Dashboard Design
+- Data Modeling
+- Star Schema
+- Power Query
+- DAX Calculations
+- Business Intelligence
+- Machine Learning Fundamentals
+- Git Version Control
+- Technical Documentation
+- Analytical Reporting
+
+---
+
+ Learning Outcomes:
+
+Throughout this internship, I gained hands-on experience in:
+
+- Git & GitHub version control
+- Data preprocessing and cleaning
+- Power BI dashboard development
+- Business Intelligence reporting
+- Data visualization
+- DAX calculations
+- Data modeling
+- Interactive dashboard design
+- Machine Learning concepts
+- Support Vector Machine (SVM)
+- Technical report writing using Overleaf
+- Documentation and repository management
+
+
+Future Improvements:
+- Apply additional Machine Learning algorithms.
+- Build predictive analytics dashboards.
+- Deploy Power BI reports using Power BI Service.
+- Explore Deep Learning techniques.
+- Work on real-world analytics projects.
+
 
